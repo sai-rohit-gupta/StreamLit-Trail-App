@@ -9,6 +9,7 @@ from pandas.api.types import (
     is_object_dtype,
 )
 
+
 def get_base64_of_bin_file(png_file):
     with open(png_file, "rb") as f:
         data = f.read()
